@@ -3,9 +3,9 @@
 ![pipeline](img/img-crossweighting.png)
 
 <p  align="center"  width="100%">
-<img  src="img/img-clusters-token.png"  width="33%" alt> 
-<img  src="img/img-clusters-nn.EMBEDDING.png"  width="33%">
-<img  src="img/img-clusters-ESM2.png"  width="33%">
+<img  src="img/img-clusters-token.png"  width="30%" alt> 
+<img  src="img/img-clusters-nn.EMBEDDING.png"  width="30%">
+<img  src="img/img-clusters-ESM2.png"  width="30%">
 </p>
 
 
