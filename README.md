@@ -13,7 +13,7 @@
 >           
 > [Riccardo Tedoldi](https://www.instagram.com/riccardotedoldi/)
 >
-> Supervisor: [Jacopo Staiano](https://www4.unitn.it/du/it/Persona/PER0202241/Didattica)
+> Supervisor: [Jacopo Staiano](https://scholar.google.com/citations?user=hI5X8UYAAAAJ&hl=en)
 >
 > *Applied NLP Project, Spring 2023* 
 
