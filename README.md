@@ -148,6 +148,13 @@ If you have suggestions or ideas for further improvemets/research please feel fr
 
 The code is licensed under the MIT license, which you can find in the LICENSE file.
 
-## Credits
+## To cite this work
 
-Acknowledge any contributors to the project, as well as any external libraries or resources that were used.
+```bibtex
+@misc{Tedoldi2023,
+    title   = {Uncovering the Hidden Code: A Study of Protein Latent Encoding},
+    author  = {Riccardo Tedoldi},
+    year    = {2023},
+    url  = {https://github.com/r1cc4r2o/UHC}
+}
+```
