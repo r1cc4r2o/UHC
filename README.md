@@ -9,7 +9,7 @@
 
 ![pipeline](img/img-crossweighting.png)
 
-> [**Uncovering the Hidden Code: A Study of Protein Latent Encoding**](https://404)
+> [**Uncovering the Hidden Code: A Study of Protein Latent Encoding**](https://drive.google.com/file/d/14VLPiCDF7ntZ2c0Nc70Fu9qHq1o7pIpS/view?usp=sharing)
 >           
 > [Riccardo Tedoldi](https://www.instagram.com/riccardotedoldi/)
 >
@@ -18,16 +18,16 @@
 > *Applied NLP Project, Spring 2023* 
 
 
-<em>The figures show the separation of proteins that do different things in the latent space. Once the network has been trained to perform a downstream task. The learned latent space captures the details and characteristics of what the protein does. I used different colours to characterise different proteins for which we have statistical evidence that they have similar functions. Because of the sequence similarity. The figures are shown in this order: `img-clusters-token.png`; `img-clusters-nn.EMBEDDING.png`; `img-clusters-ESM2.png`. I discuss the results figures in more detail in the [report](https://404).</em>
+<em>The figures show the separation of proteins that do different things in the latent space. Once the network has been trained to perform a downstream task. The learned latent space captures the details and characteristics of what the protein does. I used different colours to characterise different proteins for which we have statistical evidence that they have similar functions. Because of the sequence similarity. The figures are shown in this order: `img-clusters-token.png`; `img-clusters-nn.EMBEDDING.png`; `img-clusters-ESM2.png`. I discuss the results figures in more detail in the [report](https://drive.google.com/file/d/14VLPiCDF7ntZ2c0Nc70Fu9qHq1o7pIpS/view?usp=sharing).</em>
 
 ---
 
 ## Table of Contents 
 
-- [Installation](##installation): Instructions on how to install and set up the project locally. Include any dependencies that need to be installed.
-- [Usage](##usage): Instructions on how to use the project.
-- [Contributing](##contributing): Instructions on how to contribute to the project.
-- [License](##license): Information about the project's license.
+- [Installation](#Installation): Instructions on how to install and set up the project locally. Include any dependencies that need to be installed.
+- [Usage](#Usage): Instructions on how to use the project.
+- [Contributing](#Contributing): Instructions on how to contribute to the project.
+- [License](#License): Information about the project's license.
 
 ## Installation
 
@@ -119,6 +119,8 @@ __________________________________________________
 
 Concerning the `human_gene_go_term` I retrieved the go term of almost 20000 human gene. Additionally, I have the pre-computed embedding of them obtainded using [ProtBERT](https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3). The latent representation of them is available [residue-per-residue](https://ftp.ebi.ac.uk/pub/contrib/UniProt/embeddings/current_release/UP000005640_9606/per-residue.h5) or [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/UP000005640_9606/per-protein.h5). In order to facilitate further investigations, I found the precomputed embedding [per-protein](https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/embeddings/uniprot_sprot/per-protein.h5) of the entire Swiss-Prot database. In the corresponding notebook, in the folder `experiments`, you can find the code to extract the embedding.
 
+Additionally, in the folders you can find also jupyter-notebooks with the architectures and the models checkpoints. The moldels checkpoints are available also here under the folder `experiments > model_ckpt`.
+
 ## Usage
 
 In the folder `experiments`, you can find scripts and juptyer notebooks to run the experiments. The jupyter notebooks are self-explanatory. In the file `module.py` inside the folder `experiments`, you can find the functions implemented to preprocess the data. In separate files you can find the architecture implemented in each version. Inside the `experiments` folder you will find an additional short description for each file.
@@ -126,15 +128,13 @@ In the folder `experiments`, you can find scripts and juptyer notebooks to run t
 The folder `img`, contains the images of the cross-weighting block and the architecture proposed in the discussion of the paper. Additionally, you can find the images of the results of the experiments. Specifically, the images are the following:
 - `img-crossweighting.png`: the cross-weighting block;
 - `img-architecture.png`: the architecture proposed in the discussion of the paper;
-- `img-accuracy-token.png`: the accuracy trend of the model;
-- `img-accuracy-nn.EMBEDDING.png`: the accuracy trend of the model;
-- `img-accuracy-ESM2.png`: the accuracy trend of the model;
+- `img-table-accuracy.png`: the table with the metrics trend;
 - `img-clusters-token.png`: the clusters obtained by the model;
 - `img-clusters-nn.EMBEDDING.png`: the clusters obtained by the model;
 - `img-clusters-ESM2.png`: the clusters obtained by the model;
 
 ---
-> 🚧🚧 Other investigations discussed in the [report](https://404) are in progress 🚧🚧.
+> 🚧🚧 Other investigations discussed in the [report](https://drive.google.com/file/d/14VLPiCDF7ntZ2c0Nc70Fu9qHq1o7pIpS/view?usp=sharing) are in progress 🚧🚧.
 ---
 
 ## Contributing
