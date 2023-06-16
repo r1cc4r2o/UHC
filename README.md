@@ -126,15 +126,15 @@ Additionally, in the folders you can find also jupyter-notebooks with the archit
 In the folder `experiments`, you can find scripts and juptyer notebooks to run the experiments. The jupyter notebooks are self-explanatory. In the file `module.py` inside the folder `experiments`, you can find the functions implemented to preprocess the data. In separate files you can find the architecture implemented in each version. Inside the `experiments` folder you will find an additional short description for each file.
 
 The folder `img`, contains the images of the cross-weighting block and the architecture proposed in the discussion of the paper. Additionally, you can find the images of the results of the experiments. Specifically, the images are the following:
-- `img-crossweighting.png`: the cross-weighting block;
-- `img-architecture.png`: the architecture proposed in the discussion of the paper;
-- `img-table-accuracy.png`: the table with the metrics trend;
-- `img-clusters-token.png`: the clusters obtained by the model;
-- `img-clusters-nn.EMBEDDING.png`: the clusters obtained by the model;
-- `img-clusters-ESM2.png`: the clusters obtained by the model;
+- `img-crossweighting.png`: the [cross-weighting block](https://github.com/r1cc4r2o/UHC/blob/main/img/img-crossweighting.png);
+- `img-architecture.png`: the [architecture proposed](https://github.com/r1cc4r2o/UHC/blob/main/img/img-architecture.png) in the discussion of the report;
+- `img-table-metrics.png`: the [table with the metrics trend](https://github.com/r1cc4r2o/UHC/blob/main/img/img-table-metrics.png);
+- `img-clusters-token.png`: the [clusters](https://github.com/r1cc4r2o/UHC/blob/main/img/img-clusters-token.png) obtained by the model using a fixed vocabulary;
+- `img-clusters-nn.EMBEDDING.png`: the [clusters](https://github.com/r1cc4r2o/UHC/blob/main/img/img-clusters-nn.EMBEDDING.png) obtained by the model using a learnable vocabulary;
+- `img-clusters-ESM2.png`: the [clusters](https://github.com/r1cc4r2o/UHC/blob/main/img/img-clusters-ESM2.png) obtained by the model using the ESM2 embedding;
 
 ---
-> 🚧🚧 Other investigations discussed in the [report](https://drive.google.com/file/d/14VLPiCDF7ntZ2c0Nc70Fu9qHq1o7pIpS/view?usp=sharing) are in progress 🚧🚧.
+> 🚧🚧 Other investigations discussed in the [report](https://drive.google.com/file/d/14VLPiCDF7ntZ2c0Nc70Fu9qHq1o7pIpS/view?usp=sharing) are under development 🚧🚧.
 ---
 
 ## Contributing
