@@ -9,7 +9,7 @@
 
 ![pipeline](img/img-crossweighting.png)
 
-> [**Uncovering the Hidden Code: A Study of Protein Latent Encoding**](https://drive.google.com/file/d/14VLPiCDF7ntZ2c0Nc70Fu9qHq1o7pIpS/view?usp=sharing)
+> **Uncovering the Hidden Code: A Study of Protein Latent Encoding**
 >           
 > [Riccardo Tedoldi](https://www.instagram.com/riccardotedoldi/)
 >
